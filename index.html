@@ -80,7 +80,7 @@
           <div class="divider-custom-line"></div>
         </div>
         <!-- Portfolio Grid Items-->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center text-center">
           <!-- Portfolio Item 1-->
           <div class="col-md-12 col-lg-12 mb-12">
             <!-- <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1"> -->
@@ -89,15 +89,24 @@
                             </div> -->
             <div class="experience-field">
               <div class="row">
-                <div class="col-md-4 col-xs-2">
+                <div class="col-md-4 col-xs-12">
                   <div class="exp-image">
-                    <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                    <img class="img-fluid" src="assets/img/Logo-HS-Schmalkalden.jpg" alt="..." />
+                  </div>
+                  <div class="exp-detail">
+                    <p>Master degree - Fachhochschule Scmalkalden</p>
+                    <p>Applied of computer science</p>
+                    <p>2020-Now</p>
                   </div>
                 </div>
-                <div class="col-md-8 col-xs-10">
+                <div class="col-md-4 col-xs-12">
+                  <div class="exp-image">
+                    <img class="img-fluid" src="assets/img/sgu.png" alt="..." />
+                  </div>
                   <div class="exp-detail">
-                    <h2>Master student - Fachhochschule Scmalkalden</h2>
-                    <p>2020-Now</p>
+                    <p>Bachelor degree - Swiss German University</p>
+                    <p>Information technology</p>
+                    <p>2013-2017</p>
                   </div>
                 </div>
               </div>
@@ -111,7 +120,7 @@
     <section class="page-section portfolio" id="portfolio">
       <div class="container">
         <!-- Portfolio Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">JOB EXPERIENCE</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
           <div class="divider-custom-line"></div>
@@ -126,7 +135,7 @@
               <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
-              <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+              <img class="img-fluid" src="assets/img/adins_logo.png" alt="..." />
             </div>
           </div>
           <!-- Portfolio Item 2-->
@@ -227,27 +236,27 @@
             <!-- To make this form functional, sign up at-->
             <!-- https://startbootstrap.com/solution/contact-forms-->
             <!-- to get an API token!-->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <form id="contactForm" action="https://formspree.io/f/xeqwoplr" method="POST">
               <!-- Name input-->
-              <div class="form-floating mb-3">
+              <!-- <div class="form-floating mb-3">
                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                 <label for="name">Full name</label>
                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-              </div>
+              </div> -->
               <!-- Email address input-->
               <div class="form-floating mb-3">
-                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                 <label for="email">Email address</label>
                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
               </div>
               <!-- Phone number input-->
-              <div class="form-floating mb-3">
+              <!-- <div class="form-floating mb-3">
                 <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                 <label for="phone">Phone number</label>
                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-              </div>
-              <!-- Message input-->
+              </div> -->
+              <!-- Message input -->
               <div class="form-floating mb-3">
                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                 <label for="message">Message</label>
@@ -260,9 +269,6 @@
               <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center mb-3">
                   <div class="fw-bolder">Form submission successful!</div>
-                  To activate this form, sign up at
-                  <br />
-                  <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                 </div>
               </div>
               <!-- Submit error message-->
@@ -271,7 +277,7 @@
               <!-- an error submitting the form-->
               <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
               <!-- Submit Button-->
-              <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+              <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
             </form>
           </div>
         </div>
@@ -292,11 +298,11 @@
           </div>
           <!-- Footer Social Icons-->
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+            <h4 class="text-uppercase mb-4">Connect me</h4>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/8372339abc/"><i class="fab fa-fw fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/ariefbudiman524"><i class="fab fa-fw fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/arief-budiman0112/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/arief.budiman/"><i class="fab fa-fw fa-instagram"></i></a>
           </div>
           <!-- Footer About Text-->
           <div class="col-lg-4">

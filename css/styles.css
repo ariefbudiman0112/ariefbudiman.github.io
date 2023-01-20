@@ -7712,7 +7712,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: darkgrey !important;
 }
 
 .bg-secondary {
@@ -11383,6 +11383,9 @@ html {
 
 .exp-image img {
   border-radius: 10%;
+  /* border: 1 solid; */
+  width: auto;
+  height: 175px;
 }
 
 @media (min-width: 992px) {
