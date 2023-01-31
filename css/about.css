@@ -1,0 +1,57 @@
+ul.about_outside {
+  display: flex;
+}
+
+ul.about {
+  font-family: "SF Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 175%;
+  margin-top: 20px;
+}
+
+ul.about_second {
+  font-family: "SF Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 175%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+img.portrait {
+  border-radius: 50%;
+}
+
+.portrait {
+  transition: 1s;
+}
+
+@media (max-width: 2000px) {
+  img.portrait {
+    object-fit: none;
+  }
+  .top-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    column-gap: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  img.portrait {
+    display: none;
+  }
+
+  .top-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    column-gap: 40px;
+  }
+}

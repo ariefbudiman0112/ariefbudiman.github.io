@@ -11222,37 +11222,6 @@ html {
   justify-content: center;
   align-items: center;
 }
-ul.about_outside {
-  display: flex;
-}
-
-ul.about {
-  color: black;
-  font-family: "SF Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 175%;
-  margin-top: 20px;
-}
-
-ul.about_second {
-  color: black;
-  font-family: "SF Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 175%;
-  margin-left: 50px;
-  margin-top: 20px;
-}
-
-section {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 0 12% 0 12%;
-}
 
 #mainNav .top-logo {
   display: flex;
@@ -11378,6 +11347,7 @@ section {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  padding: 5%;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
