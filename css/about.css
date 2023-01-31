@@ -1,3 +1,15 @@
+.top-content {
+  margin: 15% 0 15% 0;
+}
+
+.about-content {
+  margin-bottom: 10%;
+}
+
+.story-content {
+  /* padding: 20% 0; */
+}
+
 ul.about_outside {
   display: flex;
 }
@@ -53,5 +65,13 @@ img.portrait {
     justify-content: space-between;
     align-content: center;
     column-gap: 40px;
+  }
+
+  .top-content {
+    margin: 60% 0 50% 0;
+  }
+
+  .about-content {
+    margin-bottom: 20%;
   }
 }
